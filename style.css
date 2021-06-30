@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(./backmain.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.headerToDay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+.weather{
+    width: 50%;
+    height: 70vh;
+}
+.toDay{
+    height: 50vh;
+    border: 10px solid white;
+}
+.maxMinTemp img{
+    width: 30px;
+}
+.maxMinTemp{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.mainToDay{
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    width: 20%;
+}
+.icon{
+    width: 50%;
+}
+.temp{
+    width: 28%;
+    font-size: 80px;
+}
+.fallout img{
+    width: 20%;
+}
+.icon img{
+    width: 70%;
+}
+.daysOf{
+    border: 2px solid white;
+    width: 19%;
+    height: fit-content;
+}
+.week{
+    display: flex;
+    justify-content: space-between;
+}
